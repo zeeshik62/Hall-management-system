@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Changing Web Page!</title>
+</head>
+<body>
+    <script>
+        function showMessage() {
+            var name = document.getElementById("myText").value;
+            document.write("Hello " + name + ", welcome to the Hall Management System!");
+        }
+    </script>
+
+    <form>
+        Enter your name: <input type="text" id="myText" name="myText">
+        <input type="submit" onclick="showMessage()">
+    </form>
+</body>
+</html>
